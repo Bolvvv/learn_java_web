@@ -33,7 +33,7 @@ public class GreetingServer extends Thread
             FileOutputStream fos =new FileOutputStream(new File("/home/bolvvv/Desktop/recevive_file/" + fileName));
             byte[] sendBytes =new byte[1024];
             int transLen =0;
-	    //接收文件
+            //接收文件
             System.out.println("----开始接收文件<" + fileName +">,文件大小为<" + fileLength +">----");
             while(true){
                 int read =0;
